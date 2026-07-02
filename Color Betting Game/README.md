@@ -30,12 +30,12 @@ Welcome to the **Colour Betting Game**, a next-level transformation of a simple 
 
 2. **Navigate into the folder:**
 
-cd 04bgchanger
+  cd 04bgchanger
 
 3. **Install dependencies:**
 
-npm install
+  npm install
 
 4. **Start the local development server:**
 
-npm run dev
+  npm run dev
