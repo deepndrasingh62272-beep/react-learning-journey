@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [counter, setCounter] = useState(15)
+  const [counter, setCounter] = useState(0)
 
   const addValue = () => {
     setCounter((prev) => prev + 1)
