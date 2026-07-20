@@ -1,16 +1,20 @@
-# React + Vite
+Project Details:
+- Project Name: Modern Currency Converter
+- Tech Stack: React.js (Vite), Tailwind CSS v4, Custom React Hooks, JavaScript (ES6+), react-world-flags
+- Features:
+  1. Live Exchange Rates fetched via Fawaz Ahmed Currency API.
+  2. Custom Hook (useCurrencyInfo) for asynchronous API fetching and state management.
+  3. Reusable CurrencyInputCard component with glassmorphism UI design.
+  4. Instant Currency & Amount Swapping functionality.
+  5. Responsive layout with custom background styling.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Please structure the README.md with the following sections:
+1. Title and Brief Summary (with badges for React, Tailwind CSS, Vite).
+2. Features List.
+3. Tech Stack Used.
+4. Folder & Project Structure (using ASCII tree format).
+5. Installation & Setup Commands (Step-by-Step).
+6. Code Highlights (Briefly explaining how the custom hook and main components work).
+7. Future Enhancements / Roadmaps (e.g., adding charts, historical data).
+8. License & Acknowledgments.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
